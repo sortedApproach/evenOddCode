@@ -1,0 +1,19 @@
+
+     
+// Find even odd from given number
+var variable=2;
+    if(variable%2==0)
+      console.log("even");
+      else
+      console.log("odd");
+    
+
+// Find even odd in given array
+
+      var arr=[2,4,5,3,2,33,22,65];
+     for(var i=0;i<arr.length;i++){
+         if(arr[i]%2==0)
+         console.log("even");
+         else
+           console.log("odd");
+       }
